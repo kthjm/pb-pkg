@@ -4,6 +4,11 @@
 - [avajs/ava](https://github.com/avajs/ava)
 - [rollup/rollup](https://github.com/rollup/rollup)
 
+## add travis api_key
+```bash
+yarn config list
+travis encrypt 8-4-4-4-12 --add deploy.api_key
+```
 
 <!-- [![styled with prettier]()]()
 [![Build Status]()]()
