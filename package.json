@@ -9,6 +9,11 @@
   "main": "dist/{name}.cjs.js",
   "jsnext:main": "dist/{name}.es.js",
   "module": "dist/{name}.es.js",
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "nyc": {
     "require": ["babel-register"],
     "include": ["src"],
@@ -51,10 +56,5 @@
     "rollup-plugin-uglify": "^2.0.1",
     "sinon": "^4.0.1",
     "uglify-es": "^3.2.1"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "semi": false,
-    "singleQuote": true
   }
 }
